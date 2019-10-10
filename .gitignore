@@ -1,0 +1,12 @@
+# Ignore your own projects
+Labs/*
+Projects/*
+Tests/*
+
+# exception to the rule
+!Labs/.gitkeep
+!Projects/.gitkeep
+!Tests/.gitkeep
+
+# Ignore unneccecary files
+*.json
