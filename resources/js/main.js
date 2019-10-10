@@ -5,9 +5,7 @@ let project_iframe;
  */
 let PROJECT_LIST_LINKS = {
 	'Three.js': 'https://threejs.org/',
-	'Lab 1': './Labs/Lab1/index.html',
-	'CG Project 1': './Projects/CG-Project-1/index.html',
-	'CG Project 2': './Projects/CG-Project-2/index.html'
+	'PROJECT-1': 'LINK_TO_PROJECT'
 };
 
 function setIframeUrl(url) {
