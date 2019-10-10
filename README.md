@@ -1,5 +1,5 @@
 # CG-Project-Viewer
-CG-Stuff is a simple webpage where you can add all your stuff that you do during the Computer Graphics course.
+CG-Project-Viewer is a simple webpage where you can add all your stuff that you do during the Computer Graphics course.
 
 ### How to add projects to the webpage
 Open the file resources/js/main.js. Inside this file you want to add as a key-value pair ("PROJECT_NAME": "URL_TO_PROJECT_PAGE") to the element "PROJECT_LIST_LINKS".
