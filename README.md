@@ -14,7 +14,7 @@ let PROJECT_LIST_LINKS = {
 };
 ```
 
-After this reload the page and everything works!
+After this, reload the page and everything works!
 
 ### Note
 This project ignore the files under the folders "Labs/", "Projects/" and "Tests/" so feel free to add you own projects there :)
