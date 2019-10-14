@@ -5,7 +5,7 @@ let project_iframe;
  */
 let PROJECT_LIST_LINKS = {
 	'Three.js': 'https://threejs.org/',
-	'PROJECT-1': 'LINK_TO_PROJECT'
+	'Project-1': './Projects/Project-1/index.html'
 };
 
 function setIframeUrl(url) {
@@ -28,3 +28,9 @@ function addProjectsToNavbar() {
 function getListElement(project_name, project_url) {
 	return '<li onclick="setIframeUrl(this.dataset.iframe_url)" data-iframe_url="' + project_url + '">' + project_name + '</li>';
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+	console.log('Your document is ready!');
+	console.log('Starting addProjectsToNavbar()...');
+	addProjectsToNavbar();
+});
